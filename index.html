@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="card.js"></script>
+    <title>Valentines Card</title>
+</head>
+
+<body>
+    <p class = "message">Will you be my valentine?</p>
+    <img class = "heart" src = "valentines-heart.gif" alt="Heart Bouncing Gif"/>
+    <div class = "boxes">
+        <input type="button" value="Yes" class="yes" id = "yes" onclick="window.location.replace('yes.html');" > 
+        <input type="button" value="No" class="no" onclick="enlargeButton()" >
+    </div>
+
+</body>
+<!-- <script>
+
+yes = document.getElementById("yes");
+
+function enlargeButton() {
+    var yes = document.getElementById("yes");
+    var currentWidth = yes.clientWidth; 
+    var currentHeight = yes.clientHeight; 
+    
+    var newWidth = currentWidth * 1.2;
+    var newHeight = currentHeight * 1.2;
+
+    yes.style.width = newWidth + "px"; 
+    yes.style.height = newHeight + "px"; 
+}
+
+</script> -->
